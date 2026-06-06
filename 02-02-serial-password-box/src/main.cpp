@@ -25,6 +25,9 @@ void loop()
     return;
   }
 
+  Serial.print("收到: ");
+  Serial.println(input);
+
   if (input == password[passwordIndex])
   {
     passwordIndex++;
